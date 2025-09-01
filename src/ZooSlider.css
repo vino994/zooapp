@@ -51,18 +51,26 @@
   z-index: 10;
   left: 20px;
   display: flex;
-  
-  /* 👈 keeps counter in middle, icons at bottom */
   align-items: center;
   justify-content: space-around;
-
   padding: 40px 0;
+}
+.mobile-social svg {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.mobile-social svg:hover {
+  transform: scale(1.2);
 }
 .slide-info {
  
   text-align: center;
   display: flex;
+  flex-direction: column;
   gap: 20px;
+  width: 10px;
+  height: 80px;
 }
 .slide-info span {
   font-size: 0.9rem;
@@ -194,7 +202,7 @@ transform: translateY(40%) rotate(90deg);
   .slider-content {
     left: 20px;
     top: 45%;
-    transform: translateY(-45%);
+    transform: translateY(-30%);
     max-width: 280px;
     z-index: 99;
   }
@@ -210,7 +218,7 @@ transform: translateY(40%) rotate(90deg);
     flex-direction: column;   /* stack everything vertically */
     align-items: center;
     justify-content: center;
-    padding: 80px 0px;
+   
   }
 
   .zoo-stats {
@@ -264,11 +272,15 @@ transform: translateY(40%) rotate(90deg);
     animation: none;/* make 'scroll' text horizontal */
   }
   .social-icons{
-    flex-direction: row;
+    flex-direction: column;
   }
   .left-bar{
-    left: 0;
-    width: 100%;
-    bottom: -15px;
+         width: 20%;
+        left: 80%;
+        top: 20%;
+        height: 40%;
+        flex-direction: column;
+        position: absolute;
+        
   }
 }

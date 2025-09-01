@@ -163,6 +163,26 @@ export default function ZooSlider() {
           </button>
         </div>
       </div>
+  {/* Left vertical bar (desktop only, hidden in mobile) */}
+<div className="left-bar d-none d-md-flex">
+  <div className="social-icons">
+    <FaFacebookF />
+    <FaTwitter />
+    <FaInstagram />
+  </div>
+  <div className="slide-info">
+    <span>0{current + 1} / 0{slides.length}</span>
+    <div className="vertical-line"></div>
+  </div>
+</div>
+
+{/* Mobile social icons (top right, under navbar) */}
+<div className="mobile-social d-flex d-md-none">
+  <FaFacebookF />
+  <FaTwitter />
+  <FaInstagram />
+</div>
+
     </section>
   );
 }
