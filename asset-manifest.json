@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/zooapp/static/css/main.c6afd326.css",
+    "main.js": "/zooapp/static/js/main.304f709e.js",
+    "static/js/453.53ad796a.chunk.js": "/zooapp/static/js/453.53ad796a.chunk.js",
+    "static/media/zoo1.mp4": "/zooapp/static/media/zoo1.e4787655d98b1ea83e79.mp4",
+    "static/media/zoo4.mp4": "/zooapp/static/media/zoo4.97201303ec924395a2a8.mp4",
+    "static/media/dear.mp4": "/zooapp/static/media/dear.3ad0b7de0da3fff0cff9.mp4",
+    "static/media/zoo3.mp4": "/zooapp/static/media/zoo3.abf27f69c0a2c7218706.mp4",
+    "static/media/111.jpg": "/zooapp/static/media/111.a1d182816c7e3d31a2eb.jpg",
+    "static/media/tiger.jpg": "/zooapp/static/media/tiger.66aa7b603dffa8ddb53f.jpg",
+    "static/media/11.jpg": "/zooapp/static/media/11.cbbffdc89ce62df80076.jpg",
+    "static/media/1.jpg": "/zooapp/static/media/1.e52c64009276e18bf49a.jpg",
+    "index.html": "/zooapp/index.html",
+    "main.c6afd326.css.map": "/zooapp/static/css/main.c6afd326.css.map",
+    "main.304f709e.js.map": "/zooapp/static/js/main.304f709e.js.map",
+    "453.53ad796a.chunk.js.map": "/zooapp/static/js/453.53ad796a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6afd326.css",
+    "static/js/main.304f709e.js"
+  ]
+}
