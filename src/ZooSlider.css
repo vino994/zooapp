@@ -55,7 +55,8 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 40px 0;
+  padding: 25px 0;
+  color: white;
 }
 .mobile-social svg {
   cursor: pointer;
@@ -90,9 +91,12 @@
   gap: 15px;
   font-size: 1.2rem;
   cursor: pointer;
+  color: black;
   margin-bottom: 20px;
 }
-
+.social-icons a{
+  color: white;
+}
 /* Centered text */
 .slider-content {
   position: absolute;

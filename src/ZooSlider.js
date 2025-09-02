@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Button } from "react-bootstrap";
-import { FaArrowRight, FaPlay, FaTimes, FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
+import { FaArrowRight, FaPlay, FaTimes, FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+
 import "./ZooSlider.css";
 
 import img1 from "./assets/1.jpg";
@@ -85,11 +86,31 @@ export default function ZooSlider() {
 
       {/* Left vertical bar */}
       <div className="left-bar">
-        <div className="social-icons">
-          <FaFacebookF />
-          <FaTwitter />
-          <FaInstagram />
-        </div>
+  <div className="social-icons">
+  <a
+    href="https://www.facebook.com/vinothkumar.sanjeevi/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <FaFacebookF />
+  </a>
+ 
+  <a
+    href="https://www.instagram.com/vinod_sanjeev/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <FaInstagram />
+  </a>
+  <a
+    href="https://www.linkedin.com/in/vinothkumar-sanjeevi/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <FaLinkedinIn />
+  </a>
+</div>
+
         <div className="slide-info">
           <span>0{current + 1} / 0{slides.length}</span>
           <div className="vertical-line"></div>
