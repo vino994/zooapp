@@ -1,0 +1,61 @@
+.history-page {
+  background-color: #f8f9fa;
+  color: #333;
+  padding-top: 80px; /* space for fixed navbar */
+}
+
+/* Hero Section */
+.history-hero {
+  position: relative;
+  background: url("../assets/zoo-1.webp") no-repeat center center/cover;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.history-hero .overlay {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  color: #fff;
+}
+
+.history-title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.history-subtitle {
+  font-size: 1.25rem;
+  margin-top: 10px;
+}
+
+/* Timeline */
+.timeline-card {
+  transition: transform 0.3s ease-in-out;
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.timeline-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Mission & Vision */
+.history-mission {
+  background: url("../assets/zoo-new.jpg") no-repeat center center/cover;
+  padding: 80px 20px;
+}
+
+/* Call To Action */
+.history-cta {
+  background: #fff;
+}
+
+.history-cta h2 {
+  font-weight: bold;
+}

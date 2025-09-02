@@ -1,0 +1,19 @@
+.shows-page { background: linear-gradient(135deg, #1f1c2c, #928dab); color: #fff; padding-top: 80px; }
+
+.shows-hero {
+  background: url("../assets/shows-hero.jpg") center/cover no-repeat;
+  height: 60vh; display: flex; align-items: center; justify-content: center;
+}
+.shows-hero .overlay { background: rgba(0,0,0,0.6); padding: 40px; border-radius: 12px; text-align: center; }
+
+.show-card { background: #2a2740; border: none; border-radius: 12px; color: #fff; transition: all .3s; }
+.show-card:hover { transform: translateY(-8px); box-shadow: 0 12px 24px rgba(0,0,0,.4); }
+
+.shows-cta { background: #232946; }
+
+.animate-fade { animation: fadeIn 1.2s ease-in-out; }
+.animate-slide { animation: slideUp 1.4s ease; }
+.animate-up { animation: slideUp 1s ease; }
+
+@keyframes fadeIn { from {opacity: 0;} to {opacity: 1;} }
+@keyframes slideUp { from {opacity: 0; transform: translateY(30px);} to {opacity: 1; transform: translateY(0);} }

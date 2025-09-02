@@ -1,11 +1,12 @@
-.zoo-video,
-.zoo-background {
+.zoo-background,
+.zoo-video {
   position: absolute;
-  inset: 0;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  z-index: 0;
+  z-index: 0; /* background lowest */
 }
 .zoo-background {
   background-position: center;
@@ -13,10 +14,9 @@
 }
 .zoo-slider {
   position: relative;
+  width: 100%;
   height: 100vh;
-  background-size: cover;
-  background-position: center;
-  color: #fff;
+  overflow: hidden;
 }
 
 .zoo-slider::before {
@@ -36,7 +36,9 @@
   position: absolute;
   top: 0;
   left: 0;
-  right: 0;
+  width: 100%;
+   z-index: 1000; /* navbar always above background */
+  background: transparent !important; /* keep it floating */
 }
 .zoo-navbar .nav-link {
   color: #fff !important;

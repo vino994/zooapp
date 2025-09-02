@@ -1,0 +1,19 @@
+.contacts-page { background: linear-gradient(135deg, #141e30, #243b55); color: #fff; padding-top: 80px; }
+
+.contacts-hero {
+  background: url("../assets/Contact-zoo.webp") center/cover no-repeat;
+  height: 60vh; display: flex; align-items: center; justify-content: center;
+}
+.contacts-hero .overlay { background: rgba(0,0,0,0.5); padding: 40px; border-radius: 12px; text-align: center; }
+
+.contacts-form { background: #1a2435; }
+.contacts-form .form-control { border-radius: 10px; border: none; padding: 12px; }
+
+.contacts-map iframe { border: none; display: block; }
+
+.animate-fade { animation: fadeIn 1.2s ease-in-out; }
+.animate-slide { animation: slideUp 1.4s ease; }
+.animate-up { animation: slideUp 1s ease; }
+
+@keyframes fadeIn { from {opacity: 0;} to {opacity: 1;} }
+@keyframes slideUp { from {opacity: 0; transform: translateY(30px);} to {opacity: 1; transform: translateY(0);} }
