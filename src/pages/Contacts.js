@@ -51,15 +51,16 @@ export default function Contacts() {
 
       {/* Google Map */}
       <section className="map-section">
-        <iframe
-          title="zoo-map"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.491097217289!2d79.04147941480155!3d10.219311892709591"
-          width="100%"
-          height="400"
-          style={{ border: 0 }}
-          allowFullScreen=""
-          loading="lazy"
-        ></iframe>
+ <iframe
+    title="zoo-map"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31416.842289096443!2d78.98513399959663!3d10.17209684776485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b006c989a22c701%3A0xaf50b6bd7bfb093b!2sAranthangi%2C%20Tamil%20Nadu%20614616!5e0!3m2!1sen!2sin!4v1756814593597!5m2!1sen!2sin"
+    width="100%"
+    height="400"
+    style={{ border: 0 }}    // ✅ Correct JSX
+    allowFullScreen          // ✅ No quotes in JSX
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+  ></iframe>
       </section>
     </div>
   );

@@ -19,7 +19,7 @@ export default function NavbarComponent() {
     >
       <Container fluid>
         <Navbar.Brand className={`${isHome ? "text-white" : "text-dark"} fw-bold`}>
-          LOGO
+          ZOO
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="zoo-navbar-nav" />

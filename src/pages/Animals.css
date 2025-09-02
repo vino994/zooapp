@@ -22,3 +22,103 @@ background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
 
 @keyframes fadeIn { from {opacity: 0;} to {opacity: 1;} }
 @keyframes slideUp { from {opacity: 0; transform: translateY(30px);} to {opacity: 1; transform: translateY(0);} }
+.page-wrapper {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  padding-top: 80px;
+}
+
+/* ✅ Hero Section */
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 40vh; /* Desktop height */
+  overflow: hidden;
+}
+
+.hero-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* keeps proportion */
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  z-index: 2;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+}
+
+/* 📱 Mobile adjustments */
+@media (max-width: 768px) {
+  .hero-section {
+    height: 30vh; /* smaller on mobile */
+  }
+
+  .hero-title {
+    font-size: 1.5rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+}
+
+/* Cards */
+.zoo-card {
+  background: #1a2a3a;
+  border: none;
+  border-radius: 12px;
+  color: #fff;
+  transition: transform 0.3s;
+}
+.zoo-card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+}
+
+/* CTA */
+.cta-section {
+  background: #142533;
+}
+
+.animate-fade {
+  animation: fadeIn 1.2s ease-in-out;
+}
+.animate-slide {
+  animation: slideUp 1.4s ease;
+}
+.animate-up {
+  animation: slideUp 1s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

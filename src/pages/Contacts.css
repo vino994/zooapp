@@ -17,3 +17,103 @@
 
 @keyframes fadeIn { from {opacity: 0;} to {opacity: 1;} }
 @keyframes slideUp { from {opacity: 0; transform: translateY(30px);} to {opacity: 1; transform: translateY(0);} }
+.page-wrapper {
+  background: linear-gradient(135deg, #141e30, #243b55);
+  color: #fff;
+  padding-top: 80px;
+}
+
+/* ✅ Hero Section */
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 40vh; /* Desktop height */
+  overflow: hidden;
+}
+
+.hero-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* keeps proportion */
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  z-index: 2;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+}
+
+/* 📱 Mobile adjustments */
+@media (max-width: 768px) {
+  .hero-section {
+    height: 30vh; /* smaller on mobile */
+  }
+
+  .hero-title {
+    font-size: 1.5rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+}
+
+/* Form */
+.contacts-form {
+  background: #1a2435;
+}
+.contacts-form .form-control {
+  border-radius: 10px;
+  border: none;
+  padding: 12px;
+}
+
+/* Map */
+.map-section iframe {
+  border: none;
+  display: block;
+  width: 100%;
+  height: 400px;
+}
+
+.animate-fade {
+  animation: fadeIn 1.2s ease-in-out;
+}
+.animate-slide {
+  animation: slideUp 1.4s ease;
+}
+.animate-up {
+  animation: slideUp 1s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
