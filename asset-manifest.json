@@ -1,23 +1,36 @@
 {
   "files": {
-    "main.css": "/zooapp/static/css/main.f8a6b41b.css",
-    "main.js": "/zooapp/static/js/main.9c7c398d.js",
+    "main.css": "/zooapp/static/css/main.85ab1020.css",
+    "main.js": "/zooapp/static/js/main.e1955350.js",
     "static/js/453.53ad796a.chunk.js": "/zooapp/static/js/453.53ad796a.chunk.js",
     "static/media/zoo1.mp4": "/zooapp/static/media/zoo1.e4787655d98b1ea83e79.mp4",
     "static/media/zoo4.mp4": "/zooapp/static/media/zoo4.97201303ec924395a2a8.mp4",
+    "static/media/contacts-hero.mp4": "/zooapp/static/media/contacts-hero.9787496f48b780afcec8.mp4",
+    "static/media/animals-hero.mp4": "/zooapp/static/media/animals-hero.b151057019238f814e3d.mp4",
     "static/media/dear.mp4": "/zooapp/static/media/dear.3ad0b7de0da3fff0cff9.mp4",
+    "static/media/panda.jpg": "/zooapp/static/media/panda.dcca791737491640feb2.jpg",
     "static/media/zoo3.mp4": "/zooapp/static/media/zoo3.abf27f69c0a2c7218706.mp4",
+    "static/media/lion.jpg": "/zooapp/static/media/lion.a3c477e4159bcf5c7b9b.jpg",
     "static/media/111.jpg": "/zooapp/static/media/111.a1d182816c7e3d31a2eb.jpg",
     "static/media/tiger.jpg": "/zooapp/static/media/tiger.66aa7b603dffa8ddb53f.jpg",
     "static/media/11.jpg": "/zooapp/static/media/11.cbbffdc89ce62df80076.jpg",
+    "static/media/bird.jpg": "/zooapp/static/media/bird.96970e326b3c49b3d341.jpg",
     "static/media/1.jpg": "/zooapp/static/media/1.e52c64009276e18bf49a.jpg",
+    "static/media/dolfin.jpg": "/zooapp/static/media/dolfin.e25be7a73ab95c919aab.jpg",
+    "static/media/Contact-zoo.webp": "/zooapp/static/media/Contact-zoo.163c5532ecd961b1b0c7.webp",
+    "static/media/zoo-old.jpg": "/zooapp/static/media/zoo-old.bb910ee40ff0644b252c.jpg",
+    "static/media/shows-hero.jpg": "/zooapp/static/media/shows-hero.c5af6da8754db8071f22.jpg",
+    "static/media/night-safari.avif": "/zooapp/static/media/night-safari.ba0a996f745d2cf098fe.avif",
+    "static/media/zoo-new.jpg": "/zooapp/static/media/zoo-new.672aa15559cd593bd86c.jpg",
+    "static/media/zoo-1.webp": "/zooapp/static/media/zoo-1.22602eb210ae4dd47af6.webp",
+    "static/media/bird-show.jpg": "/zooapp/static/media/bird-show.a2a7d03d18177e46ff7c.jpg",
     "index.html": "/zooapp/index.html",
-    "main.f8a6b41b.css.map": "/zooapp/static/css/main.f8a6b41b.css.map",
-    "main.9c7c398d.js.map": "/zooapp/static/js/main.9c7c398d.js.map",
+    "main.85ab1020.css.map": "/zooapp/static/css/main.85ab1020.css.map",
+    "main.e1955350.js.map": "/zooapp/static/js/main.e1955350.js.map",
     "453.53ad796a.chunk.js.map": "/zooapp/static/js/453.53ad796a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8a6b41b.css",
-    "static/js/main.9c7c398d.js"
+    "static/css/main.85ab1020.css",
+    "static/js/main.e1955350.js"
   ]
 }
