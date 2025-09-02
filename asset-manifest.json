@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/zooapp/static/css/main.481f7817.css",
-    "main.js": "/zooapp/static/js/main.6c7f6884.js",
+    "main.css": "/zooapp/static/css/main.78c16615.css",
+    "main.js": "/zooapp/static/js/main.7c48f7cc.js",
     "static/js/453.53ad796a.chunk.js": "/zooapp/static/js/453.53ad796a.chunk.js",
     "static/media/zoo1.mp4": "/zooapp/static/media/zoo1.e4787655d98b1ea83e79.mp4",
     "static/media/zoo4.mp4": "/zooapp/static/media/zoo4.97201303ec924395a2a8.mp4",
@@ -25,12 +25,12 @@
     "static/media/zoo-1.webp": "/zooapp/static/media/zoo-1.22602eb210ae4dd47af6.webp",
     "static/media/bird-show.jpg": "/zooapp/static/media/bird-show.a2a7d03d18177e46ff7c.jpg",
     "index.html": "/zooapp/index.html",
-    "main.481f7817.css.map": "/zooapp/static/css/main.481f7817.css.map",
-    "main.6c7f6884.js.map": "/zooapp/static/js/main.6c7f6884.js.map",
+    "main.78c16615.css.map": "/zooapp/static/css/main.78c16615.css.map",
+    "main.7c48f7cc.js.map": "/zooapp/static/js/main.7c48f7cc.js.map",
     "453.53ad796a.chunk.js.map": "/zooapp/static/js/453.53ad796a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.481f7817.css",
-    "static/js/main.6c7f6884.js"
+    "static/css/main.78c16615.css",
+    "static/js/main.7c48f7cc.js"
   ]
 }
